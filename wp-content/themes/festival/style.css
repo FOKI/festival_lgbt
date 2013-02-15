@@ -1,0 +1,421 @@
+/*
+Theme Name: Festival
+Theme URI: http://example.com/
+Description: Thème enfant du thème Twenty Twelve
+Author: LERY
+Author URI: http://example.com/about/
+Template:twentytwelve
+Version:0.1.0
+*/
+
+@import url("../twentytwelve/style.css");
+
+
+body{
+	
+background-image: url(../../uploads/2013/01/color-rainbow2.jpg);	
+background-attachment:fixed;
+}
+
+body.custom-font-enabled {
+
+font-family: ubuntu; 	
+}
+
+
+/* Container principal */
+.wrapper{
+
+height: 0px;
+}
+
+/* Footer */
+#colophon{
+	
+display: none;	
+}
+
+/* Archive-title */
+.archive-title{
+	
+display: none;	
+}
+
+/* Titre du site */
+.site-header h1 a{
+
+margin-left: 37.5%;
+font-family: ubuntu light;	
+font-size: 40px;
+color: #FFFFFF;	
+text-shadow: 0px 0px 2px #FFFFFF;
+}
+
+/* Survol du titre du site */
+.site-header h1 a:hover{
+
+color: #FFFFFF;	
+}
+
+/* Sous-titre du site */
+.site-header h2{
+
+margin-left: 41.5%;
+margin-top: -1.5%;
+font-family: ubuntu light;	
+font-weight: bold;
+color: #FFFFFF;	
+text-shadow: 0px 0px 1px #FFFFFF;
+}
+
+/* Contient titre et sous-titre */
+hgroup{
+
+width: 108.9%;
+height: 160px;
+margin-top: -26px;
+margin-left: -45px; 
+margin-bottom: -30px;
+background-image: url(./images/title.jpg);
+background-position: 0px -550px;
+background-size: 1150px 300px;
+}
+
+/* Barre de navigation */
+#menu-lgbt{
+
+margin-left: -45px;
+padding: 0 12%;
+border: none;
+background-image: url(./images/title.jpg);	
+background-position: 0px -704px;
+background-size: 1150px 300px;
+}
+
+/* Onglet Accueil */
+#menu-item-108 a{
+	
+font-size: 16px;  
+color: #000000;	
+}
+
+/* Survol de l'onglet Accueil */
+#menu-item-108 a:hover{
+
+text-shadow: 0px 0px 4px #FFB700;	
+}
+
+/* Onglet Film */
+#menu-item-27 a{
+
+font-size: 16px;  
+color: #000000;	
+}
+
+/* Survol de l'onglet Film */
+#menu-item-27 a:hover{
+
+text-shadow: 0px 0px 4px #D3F800;	
+}
+
+/* Onglet Court metrage */
+#menu-item-158 a{
+
+font-size: 16px;  	
+color: #000000;	
+}
+
+/* Survol de l'onglet Court metrage */
+#menu-item-158 a:hover{
+
+text-shadow: 0px 0px 4px #00A810;	
+}
+
+/* Onglet Infos pratiques */
+#menu-item-43 a{
+
+font-size: 16px;  	
+color: #000000;	
+}
+
+/* Survol de l'onglet Infos pratiques */
+#menu-item-43 a:hover{
+
+text-shadow: 0px 0px 2px #00C9DB;	
+}
+
+/* Onglet Partenaires */
+#menu-item-41 a{
+
+font-size: 16px;  	
+color: #000000;	
+}
+
+/* Survol de l'onglet Partenaires */
+#menu-item-41 a:hover{
+
+text-shadow: 0px 0px 2px #001BB3;	
+}
+
+/* Onglet Remerciements */
+#menu-item-42 a{
+
+font-size: 16px;  	
+color: #000000;	
+}
+
+/* Survol de l'onglet Remerciements */
+#menu-item-42 a:hover{
+
+text-shadow: 0px 0px 2px #A114BA;	
+}
+
+.entry-header{
+
+margin-top: 70px; 
+font-size: 30px; 
+text-align: center;	
+}
+
+#content{
+	
+margin-top: -70px;	
+}
+
+/* Titre d'un article */
+h1.entry-title{
+	
+margin-bottom: 40px; 
+color: #000000;
+font-size: 40px !important;
+font-family: ubuntu;
+text-align: center;
+text-shadow: 0px 4px 2px #AFAFAF;
+}
+
+/* Titre d'un article */
+.entry-title a{
+	
+color: #000000;
+font-family: ubuntu;
+font-size: 29px;
+text-align: justify;
+text-shadow: 0px 4px 2px #AFAFAF;
+}
+
+/* Contenu d'un article */
+.entry-content p{
+
+margin-bottom: 10px;	
+margin-top: -10px;	
+text-align: justify;
+}
+
+/* Bloc des champs persos */
+.champs-persos{
+	
+margin-top: 40px;
+}
+
+/*  Titre des champs personnalises*/
+.champs-persos-label{
+
+display: inline;
+margin-right: 10px; 
+font-weight: bold;
+}
+
+.champs-persos-content{
+
+display: inline;	
+font-style: italic;	
+}
+
+/* Titre du champs personnalise PAYS */
+#champs-persos-pays{
+	
+color: #FF8D8D;
+}
+
+/* Titre du champs personnalise ANNEE */
+#champs-persos-annee{
+	
+color: #F8BEE7;
+}
+
+/* Titre du champs personnalise DUREE */
+#champs-persos-duree{
+	
+color: #FFC57A;
+}
+
+/* Titre du champs personnalise GENRE */
+#champs-persos-genre{
+	
+color: #FFF69E;
+}
+
+/* Titre du champs personnalise LANGUE */
+#champs-persos-langue{
+	
+color: #BDE483;
+}
+
+/* Titre du champs personnalise REALISATEURS */
+#champs-persos-realisateur{
+	
+color: #A2F0FF;
+}
+
+/* Titre du champs personnalise INTERPRETES */
+#champs-persos-interprete{
+	
+color: #B4AFFE;
+}
+
+/* Titre du champs personnalise PRIX */
+#champs-persos-prix{
+	
+color: #E8BBE5;
+}
+
+/* Valeur des champs personnalises */
+.champs-persos-item{
+
+display: block;
+margin-bottom: 5px;
+}
+
+#champs-persos-content-pays{
+	
+color: #FF8D8D;	
+}
+
+#champs-persos-content-annee{
+	
+color: #F8BCDD;	
+}
+
+#champs-persos-content-duree{
+	
+color: #FFC176;	
+}
+
+#champs-persos-content-genre{
+	
+color: #FFF39B;	
+}
+
+#champs-persos-content-langue{
+	
+color: #86DF82;	
+}
+
+#champs-persos-content-realisateur{
+	
+color: #94F0FF;	
+}
+
+#champs-persos-content-interpretes{
+	
+color: #B0AFFE;	
+}
+
+#champs-persos-content-prix{
+	
+color: #DCB6E5;	
+}
+
+.entry-meta{
+	
+text-align: right;	
+}
+/*
+#secondary{
+	
+display: inline;
+}
+*/
+
+#slideshow{
+	
+margin-left: -45px;
+margin-bottom: 50px; 
+}
+
+/*
+.widget-area{
+
+clear: both !important;
+top: 0 !important;	
+}*/
+
+/* Intitule widget */
+.widget-title{
+
+font-family: ubuntu light;
+font-size:20px; 
+text-align: center;	
+color: #FFFFFF;
+}
+
+/* Date dans le programme */
+.prog-date{
+
+font-weight: bold;	
+font-style: italic;
+text-align: center;
+}
+
+/* Description par date dans le programme */
+.prog-texte{
+
+width: 350px;
+margin-left: -33px;
+margin-bottom: 15px; 
+font-size: 12.5px;
+font-style: italic;
+text-align: center;
+}
+
+/* Bloc du widget Programme */
+#text-3{
+
+width: 290px;
+margin-left: -44px;
+padding: 14px 10px;
+background-image: url(./images/bobine_rouge.jpg);
+background-repeat: no-repeat;
+background-position: 0px 0px;
+background-size: 305px;
+}
+
+/* Bloc du widget Articles recents */
+#recent-posts-3{
+
+width: 330px;
+margin-top: -40px;
+margin-left: -60px;	
+padding: 18px 10px;
+background-image: url(./images/bobine_bleue.jpg);
+background-repeat: no-repeat;
+background-position: 20px 0px;
+background-size: 305px;	
+text-align: center;
+}
+
+/* Bloc des Partenaires */
+#post-38 p{
+
+font-weight: bold;
+text-align: center;
+text-shadow: 0px 1px 1px #AFAFAF;
+}
+
+/* Bloc des Remerciements */
+#post-36 p{
+	
+font-weight: bold;
+text-align: center;
+text-shadow: 0px 1px 1px #AFAFAF;
+}
